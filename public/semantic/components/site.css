@@ -1,0 +1,269 @@
+/*!
+ * # Semantic UI 2.2.3 - Site
+ * http://github.com/semantic-org/semantic-ui/
+ *
+ *
+ * Released under the MIT license
+ * http://opensource.org/licenses/MIT
+ *
+ */
+
+
+/*******************************
+             Page
+*******************************/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic&amp;subset=latin');
+html,
+body {
+  height: 100%;
+}
+html {
+  font-size: 14px;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  min-width: 320px;
+  background: #FFFFFF;
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 1.4285em;
+  color: rgba(0, 0, 0, 0.87);
+  font-smoothing: antialiased;
+}
+
+
+/*******************************
+             Headers
+*******************************/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Lato', 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  line-height: 1.2857em;
+  margin: calc(2rem -  0.14285em ) 0em 1rem;
+  font-weight: bold;
+  padding: 0em;
+}
+h1 {
+  min-height: 1rem;
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.714rem;
+}
+h3 {
+  font-size: 1.28rem;
+}
+h4 {
+  font-size: 1.071rem;
+}
+h5 {
+  font-size: 1rem;
+}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child,
+h5:first-child {
+  margin-top: 0em;
+}
+h1:last-child,
+h2:last-child,
+h3:last-child,
+h4:last-child,
+h5:last-child {
+  margin-bottom: 0em;
+}
+
+
+/*******************************
+             Text
+*******************************/
+
+p {
+  margin: 0em 0em 1em;
+  line-height: 1.4285em;
+}
+p:first-child {
+  margin-top: 0em;
+}
+p:last-child {
+  margin-bottom: 0em;
+}
+
+/*-------------------
+        Links
+--------------------*/
+
+a {
+  color: #4183C4;
+  text-decoration: none;
+}
+a:hover {
+  color: #1e70bf;
+  text-decoration: none;
+}
+
+
+/*******************************
+          Highlighting
+*******************************/
+
+
+/* Site */
+::-webkit-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
+::-moz-selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
+::selection {
+  background-color: #CCE2FF;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+/* Form */
+textarea::-webkit-selection,
+input::-webkit-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+textarea::-moz-selection,
+input::-moz-selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+textarea::selection,
+input::selection {
+  background-color: rgba(100, 100, 100, 0.4);
+  color: rgba(0, 0, 0, 0.87);
+}
+
+
+/*******************************
+        Global Overrides
+*******************************/
+
+
+
+/*******************************
+         Site Overrides
+*******************************/
+.goog-te-banner-frame{
+  display: none !important;
+}
+body{
+  top: 0px !important;
+}
+header{
+  padding:15px 0;
+  background: #F7F9FA;
+  border-top:4px solid #1babca;
+}
+header img{
+  height: 60px;
+}
+
+form{
+  margin: 40px 0;
+}
+header ul{
+  list-style-type: none;
+  float: right;
+  clear: both;
+}
+header li{
+  display: inline;
+}
+header li img{
+  height:14px;
+}
+.button{
+  width: 100% !important;
+}
+.logo{
+  height:60px !important;
+  width: auto !important;
+}
+.connexion{
+  padding-top:80px; 
+}
+.brand_color{
+  background:#088aaa !important;
+  color: #fff !important;
+}
+.welcome{
+  float: left;
+  padding-top:20px; 
+  font-size: 18px;
+}
+.segment{
+ padding: 20px 15px !important;
+ background:#f7f5f6 !important;
+ margin:50px 0 !important; 
+}
+.segment .info{
+
+    margin: 10px 0 0 0 !important;
+    font-weight: bold;
+    font-size: 14px;
+    border-top:1px solid #5e5c5d;
+    border-bottom: 1px solid #5e5c5d; 
+    background: #1785ca;
+    color: #fff;
+}
+.ui.table{
+  width: 100%;
+    background: #fff;
+    margin: 1em 0;
+    border: 1px solid #d0d0d0;
+    box-shadow: none;
+    border-radius: .25rem;
+    color: rgba(0,0,0,.8);
+    border-collapse: separate;
+    border-spacing: 0;
+}
+.table_full{
+width: 95% !important;
+margin: auto !important;
+margin-top: 20px !important;
+margin-bottom: 20px !important; 
+}
+.profile{
+  border: 3px solid #fff;
+    box-shadow: 1px 1px 1px #ddd;
+}
+.container{
+  position: relative !important;
+}
+header .lang{
+      list-style-type: none;
+    float: right;
+    clear: both;
+    position: absolute;
+    right: 0;
+}
+.progress_box{
+  width: 70%;
+  margin: auto;
+  padding: 30px 0 !important
+}
+.nb{
+  color:red;
+  font-size: 14px;
+  text-align: center;
+  margin-top: 40px !important;
+  display: block;
+}
+.code_form{
+  width: 70%;
+  text-align: center;
+}
